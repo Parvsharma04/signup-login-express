@@ -29,7 +29,7 @@ app.get('/', async (req, res)=>{
 
 
 app.get('/register', (req, res)=>{
-    res.sendFile('/index.html',{root:'./public'})
+    res.sendFile('/signup.html',{root:'./public'})
 })
 
 
